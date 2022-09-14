@@ -1,0 +1,23 @@
+﻿<h2>Danh sach sinh vien</h2>
+<hr>
+<table class="table border">
+    <tr>
+        <th>
+            <label>Ma sinh vien</label>
+        </th>
+        <th>
+            <label>Ten sinh vienadasfsf</label>
+        </th>
+        <th>
+            <label>Tuoi534435</label>
+        </th>
+    </tr>
+    @foreach (var item in ViewData["Student1"] as List<Student1>)
+    {
+        <tr>
+            <td>@item.StudentID2</td>
+            <td>@item.StudentName2</td>
+            <td>@item.StudentAge2</td>
+        </tr>
+    }
+</table>
